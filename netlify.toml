@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "echo 'Deploying...'"
+
+[[redirects]]
+from = "/"
+to = "/redirect.php"
+status = 200
